@@ -59,7 +59,7 @@
 				
                 // call back before adding
                 if (settings.addCallbackFn != null)
-                    settings.addCallbackFn(item);
+                    settings.addCallbackFn(item,length);
             }
 
             if (event != null)
